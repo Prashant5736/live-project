@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load dataset
-df = pd.read_csv("D:/Project/prashant/data/Admission_Predict.csv")
+df = pd.read_csv("C:/Users/ASUS/OneDrive/Desktop/prashant/prashant/data/Admission_Predict.csv")
 
 # Drop unnecessary columns
 df = df.drop(columns=["Serial No."], errors='ignore')
