@@ -61,4 +61,4 @@ def predict():
         return f"Error: {str(e)}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=4000)
